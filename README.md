@@ -1,1 +1,1 @@
-# automation-proj
+# Ci-course-project
