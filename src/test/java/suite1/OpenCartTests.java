@@ -19,7 +19,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class OpenCartTests {
 
 	//For demonstrating parameterized builds
-	String browser = System.getProperty("browser");
+	//String browser = System.getProperty("browser");
+	String browser = System.setProperty("browser", "C:\\chromedriver\\chromedriver.exe");
 
 	private WebDriver driver;
 	private String url = "http://opencart.abstracta.us/";

@@ -21,7 +21,8 @@ public class SauceDemoTests {
 	private String header = "Swag Labs";
 
 	//For demonstrating parameterized builds
-	String browser = System.getProperty("browser");
+	//String browser = System.getProperty("browser");
+	String browser = System.setProperty("browser", "C:\\chromedriver\\chromedriver.exe");
 
 
 	public void waitForPageLoaded() {
